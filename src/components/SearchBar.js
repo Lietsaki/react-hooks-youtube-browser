@@ -19,7 +19,7 @@ const SearchBar = ({ onFormSubmit }) => {
       <form onSubmit={onSubmit} action="" className="ui form">
         <div className="field">
           <label htmlFor="yt-search">
-            Search for videos on YouTube, this is an amazing Vercel app...
+            Search for videos on YouTube, this is an amazing Netlify app...
           </label>
           <input value={query} onChange={updateTerm} type="text" name="yt" id="yt-search" />
         </div>
