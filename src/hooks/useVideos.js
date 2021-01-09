@@ -6,7 +6,7 @@ const useVideos = (defaultSearchTerm) => {
 
   useEffect(() => {
     search(defaultSearchTerm);
-  }, [defaultSearchTerm]); // run only when the component is first mounted
+  }, [defaultSearchTerm]); 
 
   const search = async (term) => {
     const res = await YouTube.get('/search', {
